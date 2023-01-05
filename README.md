@@ -1,7 +1,7 @@
-htmlSQL - Version 0.5
+htmlSQL - Version 0.6
 =====================
 
-htmlSQL is an experimental PHP library that allows you to access HTML values by an SQL like syntax. 
+htmlSQL is an experimental PHP library that allows you to access HTML values by an SQL like syntax.
 This means that you don't have to write complex functions or regular expressions to extract specific values.
 
 **htmlSQL queries look like this:**
@@ -15,10 +15,8 @@ This means that you don't have to write complex functions or regular expressions
 This query should return an array with all links that contain the attribute `class="list"`.
 
 
-Project Discontinued
+The project is alive again!
 --------------------
-
-HtmlSQL was an experiment I did in 2006. I'm not supporting or extending the library anymore this repository is only for historical purposes. But feel free to fork, modify and study the source code. If you need a reliable library for data scraping I recommend using other modules.
 
 Related projects:
 
@@ -39,7 +37,7 @@ Related links:
 Requirements
 ------------
 
-- Any flavor of PHP4+ should do
+- Any flavor of PHP5+ should do
 - [Snoopy PHP class - Version 1.2.3](http://sourceforge.net/projects/snoopy/) (optional - required for web transfers)  
   You find all Snoopy related documents (copyright, readme, etc) in the snoopy_data/ subdirectory.
 
@@ -47,8 +45,8 @@ Requirements
 Usage
 -----
 
-Just include the "snoopy.class.php" and the "htmlsql.class.php" files
-into your PHP scripts and look at the examples to get an idea of how 
+Just include the "snoopy.php" and the "htmlsql.php" files
+into your PHP scripts and look at the examples to get an idea of how
 to use the htmlSQL library. It should be very simple :-)
 
 
@@ -91,4 +89,4 @@ Author
 License
 -------
 
-htmlSQL uses a modified BSD license, you find the full license text in the "htmlsql.class.php".
+htmlSQL uses a modified BSD license, you find the full license text in the "htmlsql.php".

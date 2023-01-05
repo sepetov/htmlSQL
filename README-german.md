@@ -1,4 +1,4 @@
-﻿htmlSQL - Version 0.5
+﻿htmlSQL - Version 0.6
 =====================
 
 htmlSQL ist eine experimentelle PHP Klasse mit der man auf HTML
@@ -27,7 +27,7 @@ Installation / Anwendung
 ------------------------
 
 Um htmlSQL in eigenen Projekten zu benützen ist es nur notwendig die
-zwei Dateien "snoopy.class.php" und die "htmlsql.class.php" zu laden
+zwei Dateien "snoopy.php" und die "htmlsql.php" zu laden
 (mit include oder z.B. require). Danach kann htmlSQL, wie in den
 Beispielen (siehe examples/-Ordner), angesprochen werden. Dies sollte
 nicht allzu schwer sein :-)
@@ -55,7 +55,7 @@ Todo
 ----
 
 - Den internen HTML Parser verbessern
-- Ein eigenes Query system entwickeln und nicht das PHP eigene nutzen 
+- Ein eigenes Query system entwickeln und nicht das PHP eigene nutzen
   (Die eval()-Lösung ist nicht wirklich schön)
 - Mehr Fehlerprüfungen
 - Unit tests
@@ -80,4 +80,4 @@ Lizenz
 ------
 
 htmlSQL benützt eine modifizierte BSD Lizenz, welche ziemlich offen ist.
-Der Lizenztext befindet sich in der "htmlsql.class.php".
+Der Lizenztext befindet sich in der "htmlsql.php".
