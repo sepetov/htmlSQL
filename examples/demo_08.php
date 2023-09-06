@@ -6,8 +6,8 @@
 ** Shows how to parse a RSS/XML file with htmlSQL
 */
 
-include_once("../snoopy.php");
-include_once("../htmlsql.php");
+include_once("./snoopy.php");
+include_once("./htmlsql.php");
 
 $wsql = new htmlsql();
 

@@ -14,13 +14,12 @@ htmlSQL - это экспериментальная PHP-библиотека, к
 
 Этот запрос выдаст массив со всеми ссылками (<a>), у которых установлен атрибут: `class="list"`.
 
-
-Проект возрождён!
+Проект возрождён
 --------------------
 
 Похожие проекты:
 
-* PHP: [phpQuery](http://code.google.com/p/phpquery/), [SimpleXML](http://www.php.net/simplexml), [DOM](http://www.php.net/dom)
+* PHP: [phpQuery](http://code.google.com/p/phpquery/), [SimpleXML](http://www.php.net/simplexml), [DOM](http://www.php.net/dom), [symfony/dom-crawler](https://symfony.com/doc/current/components/dom_crawler.html), [Cquery](https://github.com/cacing69/cquery)
 * Perl: [WWW::Mechanize](http://search.cpan.org/dist/WWW-Mechanize/), [pQuery](http://search.cpan.org/~ingy/pQuery-0.07/lib/pQuery.pm)
 * Python: [Scrapy](http://scrapy.org/), [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/)
 * JavaScript: [node.js](http://blog.nodejitsu.com/jsdom-jquery-in-5-lines-on-nodejs)
@@ -38,7 +37,7 @@ htmlSQL - это экспериментальная PHP-библиотека, к
 ------------
 
 - PHP5 или выше
-- [Snoopy PHP class - Version 1.2.3](http://sourceforge.net/projects/snoopy/) (входит в проект, нужен только для парсинга сайтов)  
+- [Snoopy PHP class - Version 1.2.3](http://sourceforge.net/projects/snoopy/) (входит в проект, нужен только для парсинга сайтов)
 
 
 Использование

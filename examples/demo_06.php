@@ -6,8 +6,8 @@
 ** Show how to connect to a string
 */
 
-include_once("../snoopy.php");
-include_once("../htmlsql.php");
+include_once("./snoopy.php");
+include_once("./htmlsql.php");
 
 
 $some_html = '<a href="link1.htm">link1</a> <b>foobar</b> ';

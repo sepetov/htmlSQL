@@ -6,8 +6,8 @@
 ** Shows a simple query
 */
 
-include_once("../snoopy.php");
-include_once("../htmlsql.php");
+include_once("./snoopy.php");
+include_once("./htmlsql.php");
 
 $wsql = new htmlsql();
 
@@ -27,6 +27,9 @@ if (!$wsql->query('SELECT * FROM a WHERE $class == "nav_item"'))
     print ":-( Query error: " . $wsql->error;
     exit;
 }
+
+var_dump($wsql);
+die();
 
 // show results:
 foreach($wsql->fetch_array() as $row)
