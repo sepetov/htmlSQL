@@ -6,8 +6,8 @@
 ** Shows how to query a simple XML file
 */
 
-include_once("./snoopy.php");
-include_once("./htmlsql.php");
+include_once("../snoopy.php");
+include_once("../htmlsql.php");
 
 $wsql = new htmlsql();
 

@@ -6,13 +6,13 @@
 ** Shows how to connect to a file and a simple query
 */
 
-include_once("./snoopy.php");
-include_once("./htmlsql.php");
+include_once("../snoopy.php");
+include_once("../htmlsql.php");
 
 $wsql = new htmlsql();
 
 // connect to a file
-if (!$wsql->connect('file', 'examples/demo_data.htm'))
+if (!$wsql->connect('file', 'demo_data.htm'))
 {
     print 'Error while connecting: ' . $wsql->error;
     exit;

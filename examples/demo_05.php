@@ -6,8 +6,8 @@
 ** Shows a advanced query (with substr)
 */
 
-include_once("./snoopy.php");
-include_once("./htmlsql.php");
+include_once("../snoopy.php");
+include_once("../htmlsql.php");
 
 $wsql = new htmlsql();
 
