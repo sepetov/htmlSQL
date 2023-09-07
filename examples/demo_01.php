@@ -22,14 +22,11 @@ if (!$wsql->connect('url', 'http://codedump.jonasjohn.de/'))
 
    This query extracts all links with the classname = nav_item
 */
-if (!$wsql->query('SELECT * FROM a WHERE $class == "nav_item"'))
+if (!$wsql->query('SELECT * FROM body WHERE $class == "the-title"'))
 {
     print ":-( Query error: " . $wsql->error;
     exit;
 }
-
-var_dump($wsql);
-die();
 
 // show results:
 foreach($wsql->fetch_array() as $row)
