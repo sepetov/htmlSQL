@@ -12,7 +12,7 @@ include_once("../htmlsql.php");
 $wsql = new htmlsql();
 
 // connect to a URL
-if (!$wsql->connect('url', 'http://codedump.jonasjohn.de/'))
+if (!$wsql->connect('url', 'https://www.jonasjohn.de/contact.htm'))
 {
     print 'Error while connecting: ' . $wsql->error;
     exit;
@@ -20,9 +20,9 @@ if (!$wsql->connect('url', 'http://codedump.jonasjohn.de/'))
 
 /* execute a query:
 
-   This query extracts all links with the classname = nav_item
+   This query extracts all h2
 */
-if (!$wsql->query('SELECT * FROM a WHERE $class == "nav_item"'))
+if (!$wsql->query('SELECT * FROM h2'))
 {
     print ":-( Query error: " . $wsql->error;
     exit;
@@ -35,11 +35,10 @@ foreach($wsql->fetch_array() as $row)
 
     /*
     $row is an array and looks like this:
-    Array (
-        [href] => /feedback.htm
-        [class] => nav_item
-        [tagname] => a
-        [text] => Feedback
+    Array
+    (
+        [tagname] => h2
+        [text] => Contact me
     )
     */
 }

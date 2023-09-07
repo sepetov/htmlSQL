@@ -16,11 +16,16 @@ This query should return an array with all links that contain the attribute `cla
 
 
 The project is alive again!
+
+**Changelog**
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently
+
 --------------------
 
 Related projects:
 
-* PHP: [phpQuery](http://code.google.com/p/phpquery/), [SimpleXML](http://www.php.net/simplexml), [DOM](http://www.php.net/dom)
+* PHP: [phpQuery](http://code.google.com/p/phpquery/), [SimpleXML](http://www.php.net/simplexml), [DOM](http://www.php.net/dom), [symfony/dom-crawler](https://symfony.com/doc/current/components/dom_crawler.html), [Cquery](https://github.com/cacing69/cquery)
 * Perl: [WWW::Mechanize](http://search.cpan.org/dist/WWW-Mechanize/), [pQuery](http://search.cpan.org/~ingy/pQuery-0.07/lib/pQuery.pm)
 * Python: [Scrapy](http://scrapy.org/), [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/)
 * JavaScript: [node.js](http://blog.nodejitsu.com/jsdom-jquery-in-5-lines-on-nodejs)
@@ -33,14 +38,12 @@ Related links:
 * [Hacker News: PHP class to query the web by an SQL like language](http://news.ycombinator.com/item?id=2097008)
 * [Hacker News: Ask YC: What do you scrape? How do you scrape?](http://news.ycombinator.com/item?id=159025)
 
-
 Requirements
 ------------
 
 - Any flavor of PHP5+ should do
-- [Snoopy PHP class - Version 1.2.3](http://sourceforge.net/projects/snoopy/) (optional - required for web transfers)  
+- [Snoopy PHP class - Version 1.2.3](http://sourceforge.net/projects/snoopy/) (optional - required for web transfers)
   You find all Snoopy related documents (copyright, readme, etc) in the snoopy_data/ subdirectory.
-
 
 Usage
 -----
@@ -48,7 +51,6 @@ Usage
 Just include the "snoopy.php" and the "htmlsql.php" files
 into your PHP scripts and look at the examples to get an idea of how
 to use the htmlSQL library. It should be very simple :-)
-
 
 Background / idea
 -----------------
@@ -60,14 +62,12 @@ usable library. While drinking a coffee and thinking about that, I
 thought it would be cool to access HTML elements by using SQL. So I
 started creating this library...
 
-
 Warning
 -------
 
 The `eval()` function is used for the WHERE statement. Make sure that all
 user data is checked and filtered against malicious PHP code.
 Never trust any user input!
-
 
 Todo
 ----
@@ -79,12 +79,10 @@ Todo
 * Add unit tests
 * Add a LIMIT function like in SQL
 
-
 Author
 ------
 
 * [Jonas John](http://www.jonasjohn.de/)
-
 
 License
 -------
